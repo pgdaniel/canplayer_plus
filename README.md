@@ -1,5 +1,7 @@
 # canplayer_plus
 
+**Work In Progress - Not Tested**
+
 `canplayer_plus` is a seekable CAN log replayer written in Rust. It keeps the log indexed in memory and exposes a small HTTP control API so timeline scrubbing is a first-class operation instead of an afterthought.
 
 It also tracks a practical subset of the existing `canplayer` CLI so you do not have to relearn the basics just to get scrubbing and a control UI.
